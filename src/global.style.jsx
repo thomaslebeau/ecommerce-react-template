@@ -108,6 +108,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1;
+    font-family: 'Golos Text', sans-serif;
   }
   ol,
   ul {
