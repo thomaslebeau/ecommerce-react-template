@@ -7,6 +7,8 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   border-bottom: 3px solid #eee;
   padding: 1rem 0;
+  max-width: 90%;
+  margin: auto;
 `;
 
 export const NavContainer = styled.nav`
