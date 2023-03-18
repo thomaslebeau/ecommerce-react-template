@@ -1,11 +1,11 @@
-import { TitleStyled } from './title.style';
+import { StyledHeading } from './title.style';
 
-const Title = ({ children: text, size, className }) => {
-  return (
-    <TitleStyled className={className} size={size}>
-      {text}
-    </TitleStyled>
-  );
+const Title = ({ level, ...rest }) => {
+  return <StyledHeading as={`h${level}`} {...rest} />;
+};
+
+Title.defaultProps = {
+  level: 1,
 };
 
 export default Title;

@@ -10,7 +10,7 @@ const Advertise = () => {
   return (
     <AdvertiseContainer backgroundImg={ad}>
       <AdvertiseContentContainer>
-        <TitleAd size={4}>
+        <TitleAd level={2} size={4}>
           Shopping And <br />
           Departement Store.
         </TitleAd>

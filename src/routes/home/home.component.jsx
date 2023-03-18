@@ -9,7 +9,9 @@ const Home = () => {
     <>
       <Advertise></Advertise>
       <HomeWrapper>
-        <Title size={2.2}>Shop Our Top Categories</Title>
+        <Title level={2} size={2.2}>
+          Shop Our Top Categories
+        </Title>
         <CategoriesList />
         <Outlet />
       </HomeWrapper>
