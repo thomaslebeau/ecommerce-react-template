@@ -129,4 +129,17 @@ export const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+  .wrapper {
+    padding: 0 4rem;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
 `;
