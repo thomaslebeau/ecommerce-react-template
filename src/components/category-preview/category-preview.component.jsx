@@ -1,9 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-// import {
-//   DirectoryContainer,
-//   DirectoryBg,
-//   DirectoryBody,
-// } from "./directory-item.styles";
 
 import { CategoryPreviewContainer } from './category-preview.style';
 
